@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Scissor Paper Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+        <div class="container">
+            <h1>Rock Scissor Paper Game</h1>
+            <h2 id="score-msg">---</h2>
+            <div class="game-container">
+                <div class="game-item"><i class="fas fa-user-alt"></i></div>
+                <div class="game-item">
+                    <span id="player-score">0</span>
+                    :
+                    <span id="computer-score">0</span>
+                </div>
+                <div class="game-item"><i class="fas fa-robot"></i></div>
+            </div>
+            <div class="rcp-container">
+                <img class = "shadow-pop-br" id="rock" src="./images/rock.svg" alt="rock">
+                <img class = "shadow-pop-br" id="paper" src="./images/paper.svg" alt="paper">
+                <img class = "shadow-pop-br" id="scissors" src="./images/scissors.svg" alt="scissors">
+            </div>
+
+        </div>
+    <script src="./scripts/bundle.js"></script>
+</body>
+</html>
+
